@@ -3,15 +3,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "json-min",
-    platforms: [.macOS(.v10_15)],
-    dependencies: [
-    ],
-    targets: [
-        .executableTarget(
-            name: "json-min",
-            dependencies: [
-            ]
-        ),
-    ]
+  name: "json-min",
+  platforms: [.macOS(.v10_15)],
+  dependencies: [
+  ],
+  targets: [
+    .executableTarget(
+      name: "json-min",
+      dependencies: [
+      ]
+    ),
+  ]
 )

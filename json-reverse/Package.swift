@@ -3,17 +3,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "json-reverse",
-    platforms: [.macOS(.v10_15)],
-    dependencies: [
-        
-    ],
-    targets: [
-        .executableTarget(
-            name: "json-reverse",
-            dependencies: [
-                
-            ]
-        ),
-    ]
+  name: "json-reverse",
+  platforms: [.macOS(.v10_15)],
+  dependencies: [
+  ],
+  targets: [
+    .executableTarget(
+      name: "json-reverse",
+      dependencies: [
+      ]
+    ),
+  ]
 )

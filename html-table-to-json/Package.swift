@@ -3,17 +3,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "html-table-to-json",
-    platforms: [.macOS(.v10_15)],
-    dependencies: [
-        .package(url: "https://github.com/scinfu/SwiftSoup", from: "2.11.3")
-    ],
-    targets: [
-        .executableTarget(
-            name: "html-table-to-json",
-            dependencies: [
-                .product(name: "SwiftSoup", package: "SwiftSoup")
-            ]
-        ),
-    ]
+  name: "html-table-to-json",
+  platforms: [.macOS(.v10_15)],
+  dependencies: [
+    .package(url: "https://github.com/scinfu/SwiftSoup", from: "2.11.3")
+  ],
+  targets: [
+    .executableTarget(
+      name: "html-table-to-json",
+      dependencies: [
+        .product(name: "SwiftSoup", package: "SwiftSoup")
+      ]
+    ),
+  ]
 )

@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# build all swifties & copy build artifact to ~/bin
+
 for dir in */; do
   [ -d "$dir" ] || continue
   (

@@ -31,19 +31,19 @@ extension String {
 
 @main
 struct slugify {
-    static func main() {
+  static func main() {
 
-        if CommandLine.arguments.count > 1 {
-            let arguments = Array(CommandLine.arguments[1 ..< CommandLine.arguments.count])
-            for arg in arguments
-            {
-              print(arg.slug)
-            }
-            exit(0)
-        }
-
-        let inputData = FileHandle.standardInput.readDataToEndOfFile()
-        let str = String(data: inputData, encoding: .utf8)!
-        print(str.slug)
+    if CommandLine.arguments.count > 1 {
+      let arguments = Array(CommandLine.arguments[1 ..< CommandLine.arguments.count])
+      for arg in arguments
+      {
+        print(arg.slug)
+      }
+      exit(0)
     }
+
+    let inputData = FileHandle.standardInput.readDataToEndOfFile()
+    let str = String(data: inputData, encoding: .utf8)!
+    print(str.slug)
+  }
 }
