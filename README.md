@@ -41,6 +41,14 @@ Pretty-print `JSON` read from `stdin`.
 
 Reverse a `JSON` array read from `stdin`.
 
+## lowercase
+
+Lower-case `stdin` or command-line arguments. 
+
 ## slugify
 
 `abc-def-ghi`.
+
+## uppercase 
+
+Upper-case `stdin` or command-line arguments.
