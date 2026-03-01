@@ -3,6 +3,7 @@
 Simple CLI utilities written in [Swift](https://www.swift.org).
 
 ```
+./clean.sh
 ./build.sh
 ```
 
@@ -10,14 +11,13 @@ Simple CLI utilities written in [Swift](https://www.swift.org).
 
 Capitalize first letter of each word in `stdin`.
 
-
 ## case-lower
 
 Lower-case `stdin` or command-line arguments.
 
 ## case-sentence
 
-Capitalize the first letter from `stdin`.
+Capitalize the first letter of each sentence read from `stdin`.
 
 ## case-slug
 
