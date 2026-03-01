@@ -23,6 +23,13 @@ Capitalize the first letter of each word read from `stdin`.
 
 Upper-case `stdin` or command-line arguments.
 
+## csv-to-json
+
+Read CSV from `stdin`, print JSON to `stdout`.
+
+Built on top of [SwiftCSV](https://github.com/swiftcsv/SwiftCSV).
+
+
 ## date-8601
 
 Print current date in [ISO8601](https://www.iso.org/iso-8601-date-and-time-format.html) format
