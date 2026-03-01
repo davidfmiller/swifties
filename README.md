@@ -6,14 +6,18 @@ Simple CLI utilities written in [Swift](https://www.swift.org).
 ./build.sh
 ```
 
+## case-capitalize
+
+Capitalize first letter of each word in `stdin`.
+
+
 ## case-lower
 
 Lower-case `stdin` or command-line arguments.
 
-
 ## case-sentence
 
-Capitalize the first letter of each word read from `stdin`.
+Capitalize the first letter from `stdin`.
 
 ## case-slug
 

@@ -6,22 +6,12 @@ extension String {
   /**
    */
   var sanitized : String {
-    
-    
-    let sentences = self.components(separatedBy: ".")
-    let capped = sentences.map { s in
-      
-      let r = s.trimmingCharacters(in: .whitespaces)
-      guard let first = r.first else { return "" }
-      return first.uppercased() + r.dropFirst().lowercased()
-    }
-
-    return capped.joined(separator: ". ")
+    return self.capitalized
   }
 }
 
 @main
-struct case_sentence {
+struct case_capitalize {
     static func main() {
 
       if CommandLine.arguments.count > 1 {
