@@ -1,10 +1,6 @@
 #!/bin/sh
 
-# ensure ~/bin exists
-mkdir -p ~/bin
-
-# build all swifties & copy build artifact to ~/bin
-
+# remove all build intermediates & artifacts
 for dir in */; do
   [ -d "$dir" ] || continue
   (
