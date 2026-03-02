@@ -3,76 +3,81 @@
 Simple CLI utilities written in [Swift](https://www.swift.org).
 
 ```
-./clean.sh
-./build.sh
+./clean.sh #
+./build.sh # build and copy artifacts to ~/bin
 ```
 
-## case-capitalize
+### case-capitalize
 
 Capitalize first letter of each word in `stdin`.
 
-## case-lower
+### case-lower
 
 Lower-case `stdin` or command-line arguments.
 
-## case-sentence
+### case-sentence
 
 Capitalize the first letter of each sentence read from `stdin`.
 
-## case-slug
+### case-slug
 
 `abc-def-ghi`.
 
-## case-upper
+### case-upper
 
 Upper-case `stdin` or command-line arguments.
 
-## csv-to-json
+### csv-to-json
 
 Read CSV from `stdin`, print JSON to `stdout`.
 
 Built on top of [SwiftCSV](https://github.com/swiftcsv/SwiftCSV).
 
-## date-8601
+### date-8601
 
 Print current date in [ISO8601](https://www.iso.org/iso-8601-date-and-time-format.html) format
 
-## date-ymd
+### date-ymd
 
 Date in `YYYY-MM-DD`, optional first argument as separator
 
-
-## html-strip-attrs
+### html-strip-attrs
 
 Read `HTML` markup from `stdin`, remove all attributes from elements and print to `stdout`.
 
 Built on top of [SwiftSoup](https://github.com/scinfu/SwiftSoup).
 
-## html-table-to-json
+### html-table-to-json
 
 Read `HTML` markup containing one `<table>` from `stdin`, write data in `JSON` format to `stdout`. Object keys are read from `<th>` elements.
 
 Built on top of [SwiftSoup](https://github.com/scinfu/SwiftSoup).
 
-## html-tidy
+### html-tidy
 
 Reflow `HTML` markup to be nicely formatted.
 
 Built on top of [SwiftSoup](https://github.com/scinfu/SwiftSoup).
 
-## json-min
+### json-min
 
 Minify `JSON` read from `stdin`.
 
-## json-pretty
+### json-pretty
 
 Pretty-print `JSON` read from `stdin`.
 
-## json-reverse
+### json-reverse
 
 Reverse a `JSON` array read from `stdin`.
 
-## single-line
+### single-line
 
-## whitespace-collapse
+### whitespace-collapse
 
+---
+
+## TODO
+
+* date-add
+* string-trim
