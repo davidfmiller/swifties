@@ -3,20 +3,16 @@ import Foundation
 import Cocoa
 
 func exifData(from url: URL) -> [String:Any]? {
-
   guard
     let imageSource = CGImageSourceCreateWithURL(url as CFURL, nil),
     let tags = CGImageSourceCopyPropertiesAtIndex(imageSource, 0, nil)
   else {
     return nil
   }
-
   let dict = tags as NSDictionary as! [String: Any]
-  
   if dict.keys.count == 0 {
     return nil
   }
-  
   return dict
 }
 
