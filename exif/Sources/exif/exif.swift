@@ -26,6 +26,7 @@ struct exif {
     
     let args = CommandLine.arguments.dropFirst()
     if args.count == 0 {
+      x("Usage: exif [file]")
       exit(1)
     }
 
