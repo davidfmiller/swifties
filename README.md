@@ -93,3 +93,5 @@ Read `markdown` from `stdin`, convert to HTML & write to `stdout`.
 
 * date-ymd: option to read date from `stdin`
 * string-trim
+* [json-path](https://jmespath.org/?)
+* html-select
