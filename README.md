@@ -31,7 +31,7 @@ Built on top of [SwiftCSV](https://github.com/swiftcsv/SwiftCSV).
 
 ### date-8601
 
-Print current date in [ISO8601](https://www.iso.org/iso-8601-date-and-time-format.html) format
+Print current date in [ISO8601](https://www.iso.org/iso-8601-date-and-time-format.html) format.
 
 ### date-mod
 
@@ -39,11 +39,15 @@ Modify a date (default: `now`) by a number of seconds, minutes, hours, days, or 
 
 ### date-ymd
 
-Date in `YYYY-MM-DD`, optional first argument as separator
+Date in `YYYY-MM-DD`, optional first argument as separator.
 
 ### exif
 
 Print JSON-formatted [EXIF](https://en.wikipedia.org/wiki/Exif) data for files passed via arguments.
+
+### geo
+
+Convert a human address to latitude, longitude.
 
 ### html-strip-attrs
 
